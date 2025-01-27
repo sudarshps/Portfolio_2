@@ -3,7 +3,7 @@ import '../assets/styles/ContentStyle.css'
 const About = () => {
  
   return (
-    <div className='mt-32'>
+    <div className='mt-36' id='about'>
         <h1 className='text-2xl headfont'>About Me</h1>
         <h1 className='contentfont max-w-64 lg:max-w-full text-lg mt-20 lg:ms-20'>
         Passionate MERN stack developer with strong interest in IT field. Eager to learn new technologies.<br/>

@@ -45,16 +45,16 @@ const Skills = () => {
   ];
 
   return (
-    <div className="mt-32">
+    <div className="mt-36" id="skills">
       <h1 className="text-2xl headfont">Skills</h1>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-20 space-y-6 lg:ms-20 ">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-20 space-y-8">
         {logos.map((item, ind) => (
           <Tooltip
             key={ind}
             content={item.name}
             className="bg-white text-black"
           >
-            <a key={ind} href={item.link}>
+            <a key={ind} href={item.link} className="flex items-center justify-center">
               <motion.img
                 key={ind}
                 src={item.logo}

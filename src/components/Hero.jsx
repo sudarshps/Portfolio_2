@@ -78,11 +78,12 @@ const Hero = () => {
         </motion.p>
       </div>
 
-      <div className="flex items-center justify-center md:flex-col md:mt-1 mt-20 relative right-10">
+      <div className="flex items-end justify-end md:mt-1 mt-20 relative right-10">
         <motion.div
           style={isSmallScreen?heroImageStyleSm:heroImageStyle}
           animate={{ rotate: 320 }}
           transition={{ duration: 2.0 }}
+          className="bg-gradient-to-r from-green-400 via-blue-500 to-purple-600"
         >
         </motion.div>
         <img src={heroImg} alt="hero" className="rounded-xl sm:w-64 w-48 absolute"/>
