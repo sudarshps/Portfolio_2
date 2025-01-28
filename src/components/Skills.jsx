@@ -54,7 +54,7 @@ const Skills = () => {
             content={item.name}
             className="bg-white text-black"
           >
-            <a key={ind} href={item.link} className="flex items-center justify-center">
+            <a key={ind} href={item.link} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
               <motion.img
                 key={ind}
                 src={item.logo}
