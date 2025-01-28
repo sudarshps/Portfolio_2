@@ -51,7 +51,7 @@ const Hero = () => {
   return (
     <div className="block sm:grid sm:grid-cols-2">
       <div className="inline-block space-y-4 mt-5">
-        <p className="mb-4 herofont">Hi, I am</p>
+        <p className="mb-4 herofont text-lg md:text-2xl">Hi, I am</p>
         <motion.span
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
